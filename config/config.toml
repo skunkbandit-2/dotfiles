@@ -3,13 +3,14 @@ bat = "latest"
 bat-extras = "latest"
 bun = "latest"
 codex = "latest"
+docker-cli = "latest"
 ghq = "latest"
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
 
 [env]
-CODEX_HOME = "~/.config/codex"
+CODEX_HOME = "/home/mina/.config/codex"
 
 [dotfiles]
 "~/.bashrc" = { mode = "track" }
