@@ -15,6 +15,12 @@
     },
     {
       "path": "home/.config/bat/themes",
+      "autosave": false,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.config/git",
       "autosave": true,
       "encrypt": false,
       "variants": []

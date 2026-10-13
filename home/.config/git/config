@@ -1,0 +1,15 @@
+[init]
+	defaultBranch = main
+[user]
+	email = skunkbandit2@gmail.com
+	name = mina
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[push]
+	autoSetupRemote = true
+[ghq]
+	root = /home/mina/projects
