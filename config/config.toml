@@ -2,10 +2,14 @@
 bat = "latest"
 bat-extras = "latest"
 bun = "latest"
+codex = "latest"
 ghq = "latest"
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
+
+[env]
+CODEX_HOME = "~/.config/codex"
 
 [dotfiles]
 "~/.bashrc" = { mode = "track" }
