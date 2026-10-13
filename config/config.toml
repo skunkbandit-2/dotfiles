@@ -9,7 +9,7 @@ builtin = "history-watch"
 
 [dotfiles]
 "~/.bashrc" = { mode = "track" }
-"~/.config/bat/themes" = { mode = "track", autosave = false, encrypt = false }
+"~/.config/bat/themes" = { mode = "copy" }
 "~/.config/git" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.zshrc" = { mode = "track" }
