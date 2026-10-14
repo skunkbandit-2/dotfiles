@@ -4,6 +4,7 @@ bat-extras = "latest"
 bun = "latest"
 codex = "latest"
 docker-cli = "latest"
+fzf = "latest"
 ghq = "latest"
 
 [bootstrap.services.mise-history]
