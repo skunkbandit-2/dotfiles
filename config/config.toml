@@ -6,6 +6,7 @@ codex = "latest"
 docker-cli = "latest"
 fzf = "latest"
 ghq = "latest"
+pi = "latest"
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
