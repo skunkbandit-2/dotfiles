@@ -12,7 +12,6 @@ python = "latest"
 uv = "latest"
 bitwarden = "latest"
 bitwarden-secrets-manager = "latest"
-"github:skunkbandit-2" = "latest"
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
