@@ -26,3 +26,6 @@ CODEX_HOME = "/home/mina/.config/codex"
 [settings]
 idiomatic_version_file_enable_tools = ["python"]
 
+[settings.self_update]
+auto = true
+
