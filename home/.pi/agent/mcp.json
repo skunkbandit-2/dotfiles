@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "systemd1": {
+      "command": "/usr/local/bin/dbus-mcp-bridge",
+      "args": [
+        "--service",
+        "org.freedesktop.systemd1",
+        "--system"
+      ]
+    },
+    "login1": {
+      "command": "/usr/local/bin/dbus-mcp-bridge",
+      "args": [
+        "--service",
+        "org.freedesktop.login1",
+        "--system"
+      ]
+    },
+    "mise": {
+      "command": "mise",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}

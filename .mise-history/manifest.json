@@ -20,6 +20,12 @@
       "variants": []
     },
     {
+      "path": "home/.pi/agent/mcp.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.pi/agent/settings.json",
       "autosave": true,
       "encrypt": false,
