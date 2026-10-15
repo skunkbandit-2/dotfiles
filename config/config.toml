@@ -15,6 +15,7 @@ uv = "latest"
 builtin = "history-watch"
 
 [env]
+_.file = ".env"
 CODEX_HOME = "/home/mina/.config/codex"
 
 [dotfiles]
