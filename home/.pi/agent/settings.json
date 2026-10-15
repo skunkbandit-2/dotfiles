@@ -1,0 +1,37 @@
+{
+  "defaultModel": "gpt-6-luna",
+  "defaultProvider": "openai-codex",
+  "followUpMode": "one-at-a-time",
+  "fullscreenCopyOnSelect": true,
+  "fullscreenExitOutput": "resume-hint",
+  "fullscreenScrollbar": "auto",
+  "lastChangelogVersion": "1.2.0",
+  "steeringMode": "one-at-a-time",
+  "terminal": {
+    "showTerminalProgress": true,
+    "clearOnShrink": false
+  },
+  "theme": "dark",
+  "transport": "sse",
+  "tuiMode": "fullscreen",
+  "packages": [
+    "npm:@ollama/pi-web-search"
+  ],
+  "showHardwareCursor": true,
+  "enableInstallTelemetry": false,
+  "images": {
+    "blockImages": false
+  },
+  "hideThinkingBlock": false,
+  "enabledModels": [
+    "openai-codex/gpt-6-luna",
+    "openai-codex/gpt-5.6-luna",
+    "openai-codex/gpt-5.3-codex-spark",
+    "openai-codex/gpt-5.5",
+    "openai-codex/gpt-6.1-sol",
+    "openai-codex/gpt-6-sol",
+    "openai-codex/gpt-5.6-sol",
+    "openai-codex/gpt-5.6-terra",
+    "openai-codex/gpt-6-astra"
+  ]
+}

@@ -25,6 +25,7 @@ CODEX_HOME = "/home/mina/.config/codex"
 "~/.config/bat/themes" = { source="catppuccin/bat/themes", mode = "copy" }
 "~/.config/git" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
+"~/.pi/agent/settings.json" = { mode = "track" }
 "~/.zshrc" = { mode = "track" }
 
 [settings]

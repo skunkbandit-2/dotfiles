@@ -20,6 +20,12 @@
       "variants": []
     },
     {
+      "path": "home/.pi/agent/settings.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.zshrc",
       "autosave": true,
       "encrypt": false,
@@ -29,6 +35,9 @@
   "exclude": [],
   "recipients": [],
   "permissions": {
+    "home/.pi": 509,
+    "home/.pi/agent": 509,
+    "home/.pi/agent/settings.json": 384,
     "home/.zshrc": 436
   }
 }
